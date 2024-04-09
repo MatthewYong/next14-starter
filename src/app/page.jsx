@@ -14,12 +14,12 @@ const Home = () => {
                     <button className={styles.button}>Learn More</button>
                     <button className={styles.button}>Contact</button>
                 </div>
-            </div>
-            <div className={styles.brands}>
-                <Image src="/brands.png" alt="" fill className={styles.brandImg}/>
+                <div className={styles.brands}>
+                    <Image src="/brands.jpg" alt="" fill className={styles.brandImg}/>
+                </div>
             </div>
             <div className={styles.imgContainer}>
-                <Image src="/hero.png" alt="" fill className={styles.heroImg}/>
+                <Image src="/brands.jpg" alt="" fill className={styles.heroImg}/>
             </div>
         </div>
     );
